@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "datocms-html-to-structured-text": "^1.2.0",
     "next": "11.0.1",
+    "prism-react-renderer": "^1.2.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "use-editable": "^2.3.3"
   },
   "devDependencies": {
     "@types/react": "17.0.14",

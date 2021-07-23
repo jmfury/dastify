@@ -14,3 +14,8 @@ a {
 * {
   box-sizing: border-box;
 }
+
+pre {
+  min-height: 200px;
+  min-width: 600px;
+}
