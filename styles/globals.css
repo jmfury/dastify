@@ -17,5 +17,6 @@ a {
 
 pre {
   min-height: 200px;
-  min-width: 600px;
+  width: 600px;
+  overflow: scroll;
 }

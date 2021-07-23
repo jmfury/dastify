@@ -11,7 +11,7 @@ export default function Home() {
   async function onUpdate(html: string) {
     console.log(html);
     const processedDast = await htmlToDast({ html });
-    setDast(JSON.stringify(processedDast.dast));
+    setDast(JSON.stringify(processedDast.dast, null, 2));
   }
 
   return (
